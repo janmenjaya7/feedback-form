@@ -1,0 +1,54 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+body {
+  overflow-x: hidden;
+}
+.navbar {
+  box-shadow: rgba(50, 50, 93, 0.25) 0px 50px 100px -20px,
+    rgba(0, 0, 0, 0.3) 0px 30px 60px -30px,
+    rgba(10, 37, 64, 0.35) 0px -2px 6px 0px inset;
+  height: 70px;
+  margin-bottom: 70px;
+  background-color: hsla(0, 9%, 91%, 0.312);
+  backdrop-filter: blur(5px);
+  border-bottom-left-radius: 50px;
+  border-bottom-right-radius: 50px;
+  /* margin-bottom: 80px !important; */
+  /* position: sticky; */
+}
+.modal-background {
+  background-color: hsla(240, 1%, 25%, 0.312);
+  backdrop-filter: blur(10px);
+}
+.card-section {
+  /* margin-top: 70px; */
+  text-align: center;
+  font-weight: bolder;
+  padding-top: 70px;
+}
+li {
+  list-style: none;
+}
+#lest-item {
+  background-color: hsla(0, 10%, 84%, 0.181);
+  box-shadow: rgba(92, 92, 170, 0.25) 0px 50px 100px -20px,
+    rgba(141, 139, 139, 0.3) 0px 30px 60px -30px,
+    rgba(10, 37, 64, 0.35) 0px -2px 6px 0px inset;
+  border-radius: 20px;
+  cursor: pointer;
+}
+.delete-button {
+  border-radius: 50%;
+  height: 35px;
+  width: 35px;
+  background-color: rgba(220, 210, 210, 0.498);
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.search {
+  margin-right: 150px;
+}
